@@ -139,6 +139,10 @@ venv.bak/
 
 # mkdocs documentation
 /site
+/logs
+/model-store
+/bert-base-uncased
+/example/
 
 # mypy
 .mypy_cache/

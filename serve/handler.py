@@ -7,7 +7,7 @@ from io import BytesIO
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-model_dir = '/home/user01/projects/blip-serve/blip2-opt-2.7b'
+model_dir = './blip2-opt-2.7b'
 # model_path = os.path.join(model_dir, 'pytorch_model.bin')
 processor = Blip2Processor.from_pretrained(model_dir)
 

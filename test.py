@@ -15,7 +15,7 @@ def pil_to_base64(image, _format='JPEG'):
     return base64_str
 
 
-image_path = '70.jpg'
+image_path = './files/70.jpg'
 img = Image.open(image_path).convert("RGB")
 base64_str = pil_to_base64(img)
 data = {'base64': [base64_str] * 5}

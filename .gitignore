@@ -140,7 +140,7 @@ venv.bak/
 # mkdocs documentation
 /site
 /logs
-/model-store
+#/model-store
 /bert-base-uncased
 /example/
 
